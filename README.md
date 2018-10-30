@@ -1,14 +1,14 @@
 # Cifar10
 To improve the accuracy of the Cifar10 dataset
 
-Version1:
+**Version1:** <br>
 Using PCA Decomposition to retain 99% data so that total features decreased.
 Feature->3072 to Feature-->627
 Now training the X_train dataset using RandomForestClassifier by taking n_estimators=100.
 We get the accuracy of 46.74%
 
 
-Version2:
+**Version2:** <br>
 Using a Neural Network to train the model.
 Using the 3 Dense Hidden Layer.
 A 1st layer has 512 units, having the activation function to 'relu'.
